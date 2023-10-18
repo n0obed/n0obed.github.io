@@ -35,5 +35,5 @@ function alternateComputer() {
 	if (current == imageID.src) {
 	//console.log(imageID.src);
 	imageID.src = colorimage;
-	} else {imageID.src = grayimage;}
+	} 
 }
