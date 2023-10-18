@@ -1,5 +1,5 @@
 // var header = document.getElementsByClassName("navbar-custom")
-setInterval(alternateComputer, 4000);
+setInterval(alternateComputer, 10000);
 
 
 
