@@ -31,6 +31,7 @@ function alternateComputer() {
 	var current = "file:///C:/Users/npremdinu2/Desktop/developing/website/n0obed.github.io-main/images/laptopGS.png"; // DELETE IT
 	var colorimage = "./images/laptop.png";
 	var imageID = document.getElementById("laptopImage");
+	console.log(imageID.src);
 	if (current == imageID.src) {
 	//console.log(imageID.src);
 	imageID.src = colorimage;
