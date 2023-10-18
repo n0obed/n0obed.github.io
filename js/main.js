@@ -27,14 +27,12 @@ function email(x) {
 
 // alternate computer image 
 function alternateComputer() {
-	var grayimage = "https://n0obed.github.io/images/laptopGS.png";
-	var colorimage = "https://n0obed.github.io/images/laptop.png";
-	var grayimage2 = "./images/laptopGS.png";
-	var colorimage2 = "./images/laptop.png";
-	var current2 = "file:///C:/Users/npremdinu2/Desktop/developing/website/n0obed.github.io-main/images/laptopGS.png"; // DELETE IT
+	var grayimage = "./images/laptopGS.png";
+	var colorimage = "./images/laptop.png";
+	var current = "file:///C:/Users/npremdinu2/Desktop/developing/website/n0obed.github.io-main/images/laptopGS.png"; // DELETE IT
 	var imageID = document.getElementById("laptopImage");
 	console.log(imageID.src);
 	if (imageID.src.includes("GS")) {
 	imageID.src = colorimage;
-	} else {imageID.src = grayimage2;}
+	} else {imageID.src = grayimage;}
 }
