@@ -1,0 +1,95 @@
+@media only screen and (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .col-sm {
+        margin: 2% 0px;
+    }
+}
+@font-face {
+	font-family: lato-light;
+	src: url('./Lato-Light.ttf');
+}
+@font-face {
+    font-family: lato-regular;
+    src: url('./Lato-Regular.ttf');
+}
+@font-face {
+    font-family: roboto-regular;
+    src: url('./Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: roboto-medium;
+    src: url('./Roboto-Medium.ttf');
+}
+
+:root {
+    --bright-white: rgb(238, 238, 238);
+    --old-white: rgb(206, 199, 180);
+    --dull-white: rgb(204, 203, 201);
+    --dull-black: rgb(033, 037, 041);
+}
+
+body {
+    padding-top: 5%;
+	font-family: lato-regular, serif;
+	background: var(--dull-white); 
+    /*background: var(--bright-white);*/
+}
+a {
+    color: white;
+}
+a:hover {
+    color: var(--bright-white);
+}
+img {
+    border-radius: 1.5%;
+}
+h2, h3, h4, h5, h6 {
+    font-family: roboto-regular, serif;
+}
+::selection {
+  background: #9e9e9e; /* WebKit/Blink Browsers */
+}
+
+.navbar-custom{
+    background-color: var(--dull-black);
+}
+
+.cards-bg {
+    background-color: var(--dull-white);
+}
+.card-bg {
+    background: var(--dull-black);
+}
+
+.btn-black-white:hover {
+    color: white;
+    background-color: transparent; /* var(--dull-black); */
+}
+
+
+.darkText {
+    color: var(--dull-black);
+}
+.darkText:hover {
+    color: var(--dull-black);
+    text-decoration: none;
+}
+
+.hover-btn {
+    background: var(--dull-black);
+    color: var(--dull-white);
+    border-color: var(--dull-white);
+}
+.hover-btn:hover {
+    background-color: transparent;
+    color: var(--dull-black);
+    border-color: var(--dull-black);
+}
+
+#aboutMe {
+    font-size: 2.5em;
+}
